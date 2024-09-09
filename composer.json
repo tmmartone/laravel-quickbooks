@@ -1,0 +1,24 @@
+{
+    "name": "tmartone/quickbooks",
+    "description": "Spinen Laravel Client for QuickBooks, This is a copy of https://packagist.org/packages/spinen/laravel-quickbooks-client updated the depdenances for Laravel 11",
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/database": "^11.0",
+        "illuminate/http": "^11.0",
+        "illuminate/routing": "^11.0",
+        "illuminate/support": "^11.0",
+        "nesbot/carbon": "^2.62.1",
+        "quickbooks/v3-php-sdk": "^5.4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tmartone\\Quickbooks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tmmartone",
+            "email": "tim@e23it.com"
+        }
+    ],
+}
